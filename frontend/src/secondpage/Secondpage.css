@@ -1,0 +1,46 @@
+/* src/components/HowItWorks.css */
+.how-it-works {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .how-it-works h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .how-it-works p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .step-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .step-tab {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #f0f0f0;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .step-tab.active {
+    background-color: #002f6c;
+    color: white;
+  }
+  
+  .step-content {
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+      
