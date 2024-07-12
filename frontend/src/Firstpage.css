@@ -1,0 +1,49 @@
+
+.first-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #e7f3f3;
+  }
+  
+  .first-page-content {
+    max-width: 600px;
+  }
+  
+  .first-page-content h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .first-page-content p {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 20px 0;
+  }
+  
+  .cta-button {
+    background-color: #f7c01b;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .resume-count {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .resume-examples {
+    display: flex;
+    align-items: center;
+  }
+  
+  .resume-examples img {
+    width: 200px;
+    margin-left: 20px;
+  }
+  
