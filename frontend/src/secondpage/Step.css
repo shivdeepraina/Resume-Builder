@@ -1,0 +1,49 @@
+/* src/components/Step.css */
+.step {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .step-content {
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .step-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .step-content p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .step-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .cta-button {
+    background-color: #f7c01b;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .step-detail {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .templates img {
+    width: 150px;
+    margin: 10px;
+  }
+  

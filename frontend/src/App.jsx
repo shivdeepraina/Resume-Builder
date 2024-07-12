@@ -1,6 +1,7 @@
 import React from 'react';
-import Navbar from './Navbar';
-import FirstPage from './Firstpage';
+import Navbar from './navbar/Navbar';
+import FirstPage from './firstpage/Firstpage';
+import Secondpage from './secondpage/Secondpage';
 import './app.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Navbar />
       <FirstPage />
+      <Secondpage/>
     </div>
   );
 }
