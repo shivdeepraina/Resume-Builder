@@ -1,0 +1,61 @@
+/* src/components/SliderSection.css */
+.slider-section {
+  padding: 50px 20px;
+  background: #cce4e4; /* Background gradient */
+  text-align: center;
+  color: rgb(24, 24, 24);
+}
+
+.slider-header {
+  margin-bottom: 30px;
+}
+
+.slider-header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.slider-header p {
+  font-size: 1rem;
+  color: rgb(24, 24, 24);
+}
+
+.resume-slide {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+
+.resume-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.resume-slide h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.resume-slide p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Custom slick slider styles */
+.slick-dots li button:before {
+  color: #292525;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #363030;
+
+}

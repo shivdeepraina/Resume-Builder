@@ -1,0 +1,70 @@
+.third-page {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .left, .right {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+  }
+  
+  .left h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .left p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #f7c01b;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .illustration {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  .right {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .feature {
+    margin-bottom: 20px;
+  }
+  
+  .feature h2 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+  
