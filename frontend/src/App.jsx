@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './navbar/Navbar';
 import FirstPage from './firstpage/Firstpage';
 import Secondpage from './secondpage/Secondpage';
+import Footer from './footer/footer';
 import './app.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <FirstPage />
       <Secondpage/>
+      <Footer />
     </div>
   );
 }
