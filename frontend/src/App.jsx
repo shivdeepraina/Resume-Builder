@@ -4,6 +4,9 @@ import FirstPage from './firstpage/Firstpage';
 import Secondpage from './secondpage/Secondpage';
 import Footer from './footer/footer';
 import './app.css';
+import ThirdPage from './thirdpage/Thirdpage';
+import Fourthpage from './fourthpage.jsx/Fourthpage';
+
 
 function App() {
   return (
@@ -11,7 +14,10 @@ function App() {
       <Navbar />
       <FirstPage />
       <Secondpage/>
+      <ThirdPage/>
+      <Fourthpage/>
       <Footer />
+
     </div>
   );
 }
