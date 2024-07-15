@@ -1,0 +1,64 @@
+/* src/components/Fifthpage.css */
+
+.fifthpage {
+    padding: 50px 20px;
+    text-align: center;
+    background: #f9f9f9; /* Light background color */
+    color: #333; /* Dark text color */
+  }
+  
+  .fifthpage-header {
+    margin-bottom: 30px;
+  }
+  
+  .fifthpage-header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333; /* Darker header color */
+  }
+  
+  .fifthpage-header p {
+    font-size: 1rem;
+    color: #666; /* Grey text color */
+  }
+  
+  .job-titles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .job-title-button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background: white;
+    color: #333; /* Dark button text color */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .job-title-button:hover {
+    background: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+  .explore-button {
+    padding: 10px 20px;
+    background: #ffc107; /* Yellow background color */
+    color: #333; /* Dark button text color */
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .explore-button:hover {
+    background: #e0a800;
+  }
+  

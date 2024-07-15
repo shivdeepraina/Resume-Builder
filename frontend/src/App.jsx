@@ -6,6 +6,9 @@ import Footer from './footer/footer';
 import './app.css';
 import ThirdPage from './thirdpage/Thirdpage';
 import Fourthpage from './fourthpage.jsx/Fourthpage';
+import Fifthpage from './fifthpage/Fifthpage';
+import Sixthpage from './sixthpage/Sixthpage';
+import Seventhpage from './seventhpage/Seventhpage';
 
 
 function App() {
@@ -16,6 +19,9 @@ function App() {
       <Secondpage/>
       <ThirdPage/>
       <Fourthpage/>
+      <Fifthpage/>
+      <Sixthpage/>
+      <Seventhpage/>
       <Footer />
 
     </div>
