@@ -23,7 +23,7 @@
     margin: 0 15px;
   }
   
-  .navbar-links a {
+  .navbar-links .a {
     text-decoration: none;
     color: #333;
     font-size: 1rem;
@@ -34,7 +34,7 @@
     align-items: center;
   }
   
-  .navbar-auth a {
+  .navbar-auth .a {
     text-decoration: none;
     margin-left: 15px;
     padding: 8px 12px;
@@ -43,11 +43,20 @@
   }
   
   .navbar-auth .login {
+    background-color: #fff;
     color: #333;
+  }
+  .navbar-auth .login:hover {
+    color: #eeebeb;
+    background-color: black;
   }
   
   .navbar-auth .signup {
     background-color: #f7c01b;
     color: white;
+  }
+  .navbar-auth .signup:hover {
+    background-color: #ffc61c;
+    color: rgb(1, 1, 1);
   }
   

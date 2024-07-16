@@ -1,0 +1,55 @@
+
+.hero-section {
+    background-image: url('https://example.com/your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height:50vh;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial, sans-serif'; /* Adjust font family as needed */
+  }
+  
+  .overlay {
+    background: rgba(0, 128, 0, 0.6); /* Green overlay with transparency */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content {
+    text-align: center;
+    color: white;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #ffc107; /* Yellow color */
+    color: black;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e0a800;
+  }
+  
