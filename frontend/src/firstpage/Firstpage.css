@@ -3,7 +3,9 @@
     display: flex;
     justify-content: space-between;
     padding: 50px;
-    background-color: #e7f3f3;
+    background-image: url('../assets/bgd1.png');
+    background-size: cover;
+   
   }
   
   .first-page-content {
@@ -12,18 +14,18 @@
   
   .first-page-content h1 {
     font-size: 2.5rem;
-    color: #333;
+    color: #ffff;
   }
   
   .first-page-content p {
     font-size: 1.2rem;
-    color: #666;
+    color: #eae4e4;
     margin: 20px 0;
   }
   
   .cta-button {
     background-color: #f7c01b;
-    color: white;
+    color: rgb(154, 147, 147);
     border: none;
     padding: 15px 30px;
     font-size: 1rem;
@@ -34,7 +36,7 @@
   .resume-count {
     margin-top: 10px;
     font-size: 1rem;
-    color: #666;
+    color: #ffff;
   }
   
   .resume-examples {
@@ -45,5 +47,6 @@
   .resume-examples img {
     width: 200px;
     margin-left: 20px;
+    color: white;
   }
   
