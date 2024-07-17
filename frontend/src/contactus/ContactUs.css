@@ -1,0 +1,137 @@
+/* ContactUs.css */
+
+.contact-main{
+  background: rgba(42, 182, 42, 0.686); /* Green overlay with transparency */
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20%;
+}
+.contact-main h1{
+  font-size: 2.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #34c3a3, #1a8d7d);
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+  .contact-details, .get-in-touch {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-details {
+    flex: 1;
+    margin-right: 1rem;
+    z-index: 1;
+  }
+  
+  .contact-details h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .info-item i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+  
+  .info-item p {
+    margin: 0;
+  }
+  
+  .get-in-touch {
+    flex: 1;
+    position: relative;
+    z-index: 2;
+    box-shadow: 6px 13px 30px #232323;
+}
+  
+  .get-in-touch h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .get-in-touch p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .form-group input {
+    width: 48%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background: #f1c40f;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    color: #1a8d7d;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #d4ac0d;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .contact-us {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-details, .get-in-touch {
+      margin: 1rem 0;
+      width: 100%;
+    }
+  
+    .form-group {
+      flex-direction: column;
+    }
+  
+    .form-group input {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+  
