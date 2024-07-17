@@ -1,0 +1,33 @@
+
+.faq-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .faq-answer {
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+    max-height: 0;
+    padding: 0 20px;
+  }
+  
+  .faq-answer p {
+    margin: 0;
+  }
+  
+  .faq-answer.open {
+    max-height: 1000px; 
+    padding: 10px 20px;
+  }
+
+  .faq-icon{
+    font-size: 1.5rem;
+  }
+  

@@ -1,30 +1,25 @@
 import React from 'react';
-import Navbar from './navbar/Navbar';
-import FirstPage from './firstpage/Firstpage';
-import Secondpage from './secondpage/Secondpage';
-import Footer from './footer/footer';
-import './app.css';
-import ThirdPage from './thirdpage/Thirdpage';
-import Fourthpage from './fourthpage.jsx/Fourthpage';
-import Fifthpage from './fifthpage/Fifthpage';
-import Sixthpage from './sixthpage/Sixthpage';
-import Seventhpage from './seventhpage/Seventhpage';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ContactUs from './contactus/ContactUs';
+import Home from './Home';
+import LoginPage from './login/LoginPage'
+import SignupPage from './signup/SignupPage';
+
+
 
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <FirstPage />
-      <Secondpage/>
-      <ThirdPage/>
-      <Fourthpage/>
-      <Fifthpage/>
-      <Sixthpage/>
-      <Seventhpage/>
-      <Footer />
-
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Home/>} exact></Route>
+      <Route path="/contactus" element={<ContactUs />} />
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/signup" element={<SignupPage />} />
+    </Routes>
+    </BrowserRouter>
+      
+ 
   );
 }
 
