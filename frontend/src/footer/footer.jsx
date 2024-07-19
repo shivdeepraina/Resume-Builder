@@ -68,7 +68,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        &copy; Copyright 2024 - Zidio dev. All Rights Reserved.
+        &copy; Copyright 2024 - <span>Zidio dev</span>. All Rights Reserved.
         <div className="footer-terms">
           <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
         </div>
